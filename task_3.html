@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> L26-0643 Task 03</title>
+<style>
+body {
+	background: lightgray;
+}
+h2 { 
+	color: red;
+	text-align: center;
+}
+table { 
+	margin: auto; 
+	background: dimgray; 
+}
+td { 
+	background: lightblue;
+	padding: 8px; 
+}
+</style>
+</head>
+<body>
+
+<h2> Continental Hotel Reservation Form </h2>
+
+<form>
+<table>
+<tr>
+	<td><b>Name</b></td>
+	<td><input placeholder="Enter your name"></td>
+</tr>
+<tr>
+	<td><b>Email</b></td>
+	<td><input value="info@continental.pk"></td>
+</tr>
+<tr>
+	<td><b>Mobile No</b></td>
+	<td><input placeholder="Enter your cell number"></td>
+</tr>
+<tr>
+	<td><b>Arrival Time</b></td>
+	<td><input type="time"> <input type="date"></td>
+</tr>
+<tr>
+	<td><b>Departure</b></td>
+	<td><input placeholder="Lahore"> to <input placeholder="Islamabad"></td>
+</tr>
+<tr>
+	<td><b>Room Type</b></td>
+	<td>
+	<input type="radio" name="room"> Single
+	<input type="radio" name="room"> Double<br>
+	<input type="radio" name="room"> Presidential Suite
+	</td>
+</tr>
+<tr>
+	<td><b>Preferences</b></td>
+	<td>
+	<input type="checkbox"> Non-Smoking<br>
+	<input type="checkbox"> Internet<br>
+	<input type="checkbox"> Firm Mattress
+	</td>
+</tr>
+<tr>
+	<td><b>Mode of Payment</b></td>
+	<td>
+	<input type="checkbox"> Cash
+	<input type="checkbox"> Check<br>
+	<input type="checkbox"> Credit Card
+	<select> 
+	<option> Select Card</option> 
+	<option value = "business"> Business Card </option>
+	<option value = "Master"> Master Card </option>
+	</select>
+	</td>
+</tr>
+<tr>
+	<td colspan="2" align="center">
+	<button>Send Data</button>
+	</td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>
